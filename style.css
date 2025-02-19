@@ -567,7 +567,7 @@ nav h3{
     position: fixed;
     z-index: 99;
     top: -150%;
-    transition: all ease 0.8s;
+    transition: all ease 0.5s;
 }
 
 #full-scr #full-div1{
@@ -576,6 +576,7 @@ nav h3{
     background-color: #EFEAE3;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    transition: all ease 0.5s;
 }
 
 
@@ -594,7 +595,7 @@ nav h3{
 
     nav img{
         height: 9vh;
-        transition: all ease 0.6S;
+        transition: all ease 0.5S;
     }
     
     #nav-part2{
@@ -736,7 +737,7 @@ nav h3{
     }
     
     #dot{
-        margin: 1vw 2vw;
+        margin: 2vw 2vw;
         display: inline-block;
         height: 4vw;
         width: 4vw;
@@ -749,21 +750,23 @@ nav h3{
         height: 80vh;
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
         position: relative;
         z-index: 9;
      }
     
     #page2-bottom h1{
-        font-size: 3.5vw;
-        line-height: 3.5vw;
-        width: 48vw;
+        font-size: 6.5vw;
+        line-height: 7vw;
+        width: 100%;
     }
     
     #imgandtext{
         margin-top: 10vw;
         margin-right: 7vw;
-        width: 10vw;
+        width: 65vw;
     }
     
     #imgandtext img{
@@ -774,20 +777,20 @@ nav h3{
     #imgandtext p{
         margin-top: 1.5vw;
         font-family: neur;
-        font-weight: 600;
-        width: 19.5vw;
+        font-weight: 550;
+        width: 64vw;
     }
     
     #page2 #gooey{
-        height: 27vw;
-        width: 27vw;
+        height: 70vw;
+        width: 70vw;
         position: absolute;
-        top: 45%;
+        top: 30%;
         left: 23%;
         border-radius: 50%;
         background: linear-gradient(to top right,#ff2d03,#ff5c0b);
         filter: blur(20px);
-        animation: gooey 3s ease-in-out infinite alternate;
+        animation: gooey 2.5s ease-in-out infinite alternate;
     }
     
     @keyframes gooey{
@@ -805,14 +808,14 @@ nav h3{
     }
     
     #page2 ul li{
-        font-size: 1vw;
+        font-size: 5vw;
         padding: 0 3vw;
         list-style: inside;
     }
     
     #page2 li::marker{
         color: #FE320A;
-        font-size: 1vw;
+        font-size: 5vw;
     }
     
 }
