@@ -829,11 +829,11 @@ nav h3 {
         background-color: #EFEAE3;
     }
 
-    #page3 .elem {
+   #page3 .elem {
         position: relative;
         border-bottom: 1px solid #808080a4;
-        padding: 2vw 1vw;
-        height: 7vw;
+        padding: 1vw 1vw;
+        height: 10vh;
         width: 100%;
         display: flex;
         align-items: center;
@@ -842,14 +842,14 @@ nav h3 {
     }
 
     #page3 .elem h2 {
-        font-size: 3vw;
+        font-size: 8vw;
         position: relative;
         z-index: 9;
     }
 
     #page3 .elem h4 {
         text-align: right;
-        font-size: 0.9vw;
+        font-size: 3vw;
         position: relative;
         z-index: 9;
     }
