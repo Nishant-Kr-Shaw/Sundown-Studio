@@ -894,7 +894,7 @@ nav h3 {
     }
 
     #all h3 {
-        margin-top: 10vh;
+        margin-top: 13vh;
         margin-bottom: 10vh;
         width: fit-content;
         padding: 2vw;
@@ -913,7 +913,6 @@ nav h3 {
         position: relative;
         z-index: 9;
     }
-
 
     #all h3::after {
         content: "";
