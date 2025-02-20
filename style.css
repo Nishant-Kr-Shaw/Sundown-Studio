@@ -749,7 +749,7 @@ nav h3 {
 
     #page2-bottom {
         padding: 5vw;
-        height: 100vh;
+        height: 60vh;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -760,6 +760,7 @@ nav h3 {
     }
 
     #page2-bottom h1 {
+        padding-top: 15vw;
         font-size: 6.9vw;
         line-height: 7vw;
         width: 100%;
@@ -807,7 +808,7 @@ nav h3 {
     }
 
     #page2 ul {
-        margin-top: 20vh;
+        margin-top: 16vh;
         width: fit-content;
     }
 
@@ -893,8 +894,8 @@ nav h3 {
     }
 
     #all h3 {
-        margin-top: 16vh;
-        margin-bottom: 16vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
         width: fit-content;
         padding: 2vw;
         border: 1px solid #47474799;
