@@ -825,7 +825,7 @@ nav h3 {
 
     #page3 {
         padding: 1vw 2vw;
-        min-height: 80vh;
+        min-height: 50vh;
         width: 100vw;
     }
 
@@ -893,9 +893,10 @@ nav h3 {
     }
 
     #all h3 {
-        margin-top: 6vw;
+        margin-top: 6vh;
+        margin-bottom: 6vh;
         width: fit-content;
-        padding: 1vw;
+        padding: 2vw;
         border: 1px solid #47474799;
         border-radius: 50px;
         position: relative;
