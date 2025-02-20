@@ -955,12 +955,11 @@ nav h3 {
     #full #text {
         width: 100%;
         height: 40%;
-        background-color: red;
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: flex-start;
-        justify-content: center;
-        gap: 1vw;
-        padding: 8vw 0;
+        padding: 8vw 2vw;
         padding-top: 9vw;
         overflow: hidden;
     }
@@ -975,7 +974,7 @@ nav h3 {
         padding-left: 1vw;
         border-left: 3px solid #77624a7b;
         color: #77624a7b;
-        font-size: 3vw;
+        font-size: 9vw;
         overflow: hidden;
         transition: all ease 0.3s;
     }
@@ -993,12 +992,11 @@ nav h3 {
     }
     
     #text #paragraph {
-        width: 15vw;
-        display: flex;
-        font-size: 0.95vw;
+        width: 50%;
+        font-size: 3vw;
         font-family: neur;
         font-weight: 100;
-        padding: 1vw;
+        padding: 3vw;
         border-radius: 30px;
         border: 2px solid #77624a7b;
         height: fit-content;
@@ -1017,7 +1015,7 @@ nav h3 {
     #full #imgl {
         width: 100%;
         height: 60%;
-        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         background-image: url('assets/page4-1.webp');
         background-size: cover;
