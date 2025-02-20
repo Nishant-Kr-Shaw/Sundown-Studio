@@ -702,9 +702,10 @@ nav h3 {
 
     #page2 {
         padding: 6vw 0;
-        min-height: 100vh;
+        min-height: 80vh;
         width: 100%;
-        background-color: #EFEAE3;
+        /* background-color: #EFEAE3; */
+        background-color: rosybrown;
         position: relative;
     }
 
@@ -823,13 +824,14 @@ nav h3 {
 
 
     #page3 {
-        padding: 0 2vw;
-        min-height: 100vh;
+        padding: 1vw 2vw;
+        min-height: 80vh;
         width: 100vw;
-        background-color: #EFEAE3;
+        background-color: purple;
     }
 
-   #page3 .elem {
+    #page3 .elem {
+        background-color: blue;
         position: relative;
         border-bottom: 1px solid #808080a4;
         padding: 1vw 1vw;
@@ -893,7 +895,7 @@ nav h3 {
     }
 
     #all h3 {
-        margin-top: 1vw;
+        margin-top: 6vw;
         width: fit-content;
         padding: 1vw;
         border: 1px solid #47474799;
