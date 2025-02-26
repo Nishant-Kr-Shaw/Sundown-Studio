@@ -674,7 +674,10 @@ nav h3 {
         font-size: 4vw;
         font-family: neur;
         font-weight: 500;
-        padding-left: 10vw;
+    }
+
+    nav h3 i{
+        padding-right: 1vw;
     }
 
     #center {
