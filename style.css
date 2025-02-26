@@ -976,6 +976,7 @@ nav h3 {
     #text #category h1 {
         position: relative;
         padding-left: 1vw;
+        padding-bottom: 2vw;
         border-left: 3px solid #77624a7b;
         color: #77624a7b;
         font-size: 9vw;
