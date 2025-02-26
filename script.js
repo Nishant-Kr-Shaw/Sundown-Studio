@@ -74,7 +74,6 @@ document.querySelector("#category").addEventListener("mouseleave",function(){
     descImg.style.backgroundImage = "url('assets/page4-1.webp')";
     head1.style.color = "#fff";
     head1.style.borderColor = "#ff5c0b";
-    para1.style.display = "block";
 })
 
 }

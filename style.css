@@ -476,6 +476,10 @@ nav h3 {
     transition: all ease 0.5s;
 }
 
+#text #paragraph #para1 {
+    display: none;
+}
+
 #text #paragraph #para2 {
     display: none;
 }
@@ -1002,6 +1006,10 @@ nav h3 {
         height: fit-content;
         color: #fff;
         transition: all ease 0.5s;
+    }
+
+    #text #paragraph #para1 {
+        display: none;
     }
     
     #text #paragraph #para2 {
