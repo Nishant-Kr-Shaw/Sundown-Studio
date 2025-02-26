@@ -183,6 +183,8 @@ nav h3 {
 }
 
 #moving-text {
+    border-top: 1px solid #47474778;
+    border-bottom: 1px solid #47474778;
     white-space: nowrap;
     overflow-x: auto;
 }
