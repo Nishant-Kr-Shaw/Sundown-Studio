@@ -8,6 +8,10 @@
     src: url("assets/NeueHaasDisplayRoman.ttf");
 }
 
+*::selection{
+    background: #FE320A;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -360,8 +364,11 @@ nav h3 {
     background-size: cover;
 }
 
+#all{
+    padding-top: 2vw;
+}
+
 #all h3 {
-    margin-top: 1vw;
     width: fit-content;
     padding: 1vw;
     border: 1px solid #47474799;
@@ -406,6 +413,7 @@ nav h3 {
     height: 100vh;
     width: 100%;
     padding: 0 2vw;
+    padding-top: 3vw;
     background-color: #EFEAE3;
 }
 
@@ -449,12 +457,6 @@ nav h3 {
     overflow: hidden;
     transition: all ease 0.3s;
 }
-
-#text #category #head1 {
-    color: #fff;
-    border-color: #ff5c0b;
-}
-
 
 #text #category h1:hover {
     cursor: pointer;
@@ -585,8 +587,62 @@ nav h3 {
     transition: all ease 0.5s;
 }
 
+#loader{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    transition: all ease 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loader h1{
+    font-size: 4vw;
+    color: #fff;
+    background: linear-gradient(to right,orange,#FE320A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+    opacity: 0;
+    transition: all ease 0.5s;
+    animation: loader 1s 0.5s linear;
+}
+
+#loader h1:nth-child(2){
+   animation-delay: 1.5s;
+}
+
+#loader h1:nth-child(3){
+    animation-delay: 2.5s;
+}
+
+@keyframes loader{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
 
 @media(max-width: 600px) {
+    
+#loader h1{
+    font-size: 10vw;
+}
+
     #page1 {
         min-height: 100vh;
         width: 100vw;
@@ -984,12 +1040,6 @@ nav h3 {
         transition: all ease 0.3s;
     }
     
-    #text #category #head1 {
-        color: #fff;
-        border-color: #ff5c0b;
-    }
-    
-    
     #text #category h1:hover {
         cursor: pointer;
         color: #fff;
@@ -1007,18 +1057,6 @@ nav h3 {
         height: fit-content;
         color: #fff;
         transition: all ease 0.5s;
-    }
-
-    #text #paragraph #para1 {
-        display: none;
-    }
-    
-    #text #paragraph #para2 {
-        display: none;
-    }
-    
-    #text #paragraph #para3 {
-        display: none;
     }
     
     #full #imgl {

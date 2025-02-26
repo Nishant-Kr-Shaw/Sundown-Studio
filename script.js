@@ -39,8 +39,8 @@ heads.forEach(function (e) {
 
 head1.addEventListener("mouseenter", function(){
     para1.style.display = "block";
-      head1.style.color = "#fff"
-    head1.style.borderColor = "#ff5c0b"
+    head1.style.color = "#fff";
+    head1.style.borderColor = "#ff5c0b";
 })
 
 head2.addEventListener("mouseenter", function(){
@@ -106,5 +106,8 @@ function menuAnimation() {
         }
     })
 }
-
 menuAnimation();
+
+setTimeout(function(){
+    document.querySelector("#loader").style.top = "-100%"
+}, 3500)
